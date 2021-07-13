@@ -1,6 +1,5 @@
-name: Psalm Static analysis
-
-on: [push, pull_request]
+name: Psalm
+on: [pull_request]
 
 jobs:
   psalm:
