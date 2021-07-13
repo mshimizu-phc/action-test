@@ -1,5 +1,5 @@
 name: Psalm
-on: [pull_request]
+on: [push]
 
 jobs:
   psalm:
