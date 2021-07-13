@@ -1,6 +1,5 @@
-name: Psalm Static analysis
-
-on: [push, pull_request]
+name: static code analysis and unit testing
+on: [push]
 
 jobs:
   psalm:
