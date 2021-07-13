@@ -1,7 +1,7 @@
 name: CD
 
-
 on:
+  workflow_dispatch:
   workflow_run:
     workflows:
       - Psalm
@@ -28,5 +28,3 @@ jobs:
             ${{ secrets.CODECOMMIT_SSH_PRIVATE_KEY }}
           ssh_username:
             ${{ secrets.CODECOMMIT_SSH_PRIVATE_KEY_ID }}
-          
-  
