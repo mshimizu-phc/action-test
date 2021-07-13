@@ -7,10 +7,9 @@ on:
       - Psalm
     branches:
       - staging
-      - production
+      - master
     types:
       - completed
-  workflow_dispatch:
 
 jobs:
   deploy:
